@@ -19,7 +19,7 @@
   <p>Postdoctoral Researcher • Galaxy Formation and Evolution</p>
 
   <!-- Portrait -->
-  <img src="images/portrait.jpeg" alt="Portrait of Sachi Weerasooriya" class="portrait">
+  <img src="images/portrait.jpeg" alt="Portrait of Sachi Weerasooriya" class="portrait"/>
 
   <h2>About Me</h2>
   <p>
@@ -41,7 +41,7 @@ emission line model for the AGN in model galaxies, drawing inspiration from
 the work of Feltre et al. 2016 \cite{Feltre+2016}. This model employs \texttt{CLOUDY}
 Ferland+2013, Ferland+2017, to create detailed photoionization models of the narrow-line regions in AGN.
   </p>
-  <img src="images/project1.jpg" alt="Predicted star-formation histories of Milky Way dwarf galaxies (solid curves) and observed SFHs in dashed curves." class="figure">
+  <img src="images/project1.jpg" alt="Predicted star-formation histories of Milky Way dwarf galaxies (solid curves) and observed SFHs in dashed curves." class="figure"/>
 
   <h3>Dwarf Galaxies of the Local Volume <span>(Weerasooriya et al. 2023,2024)</span></h3>
   <p>
@@ -50,7 +50,7 @@ by modeling dwarf galaxies of the MW and an intermediate mass-environment (Cen A
 SAMs formulate galaxy physics onto a dark matter-only N-body simulation, are computationally inexpensive, and
 allow us to explore this massive system's parameter space rapidly.
   </p>
-  <img src="images/project2.jpg" alt="Luminosity metallicity relation of Milky Way dwarf galaxies" class="figure">
+  <img src="images/project2.jpg" alt="Luminosity metallicity relation of Milky Way dwarf galaxies" class="figure"/>
 
   <h2>Contact</h2>
   <p>
