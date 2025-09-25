@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachi Weerasooriya — Research</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: 2em auto; line-height: 1.6; }
+    h1, h2, h3 { margin-top: 1.5em; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img.portrait { width: 180px; border-radius: 50%; margin-bottom: 1em; }
+    img.figure { width: 100%; max-width: 600px; margin-top: 0.5em; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+
+  <h1>Sachi Weerasooriya</h1>
+  <p>Postdoctoral Researcher • Galaxy Formation and Evolution</p>
+
+  <!-- Portrait -->
+  <img src="images/portrait.jpg" alt="Portrait of Sachi Weerasooriya" class="portrait">
+
+  <h2>About Me</h2>
+  <p>
+    I am a postdoctoral researcher modeling galaxies for future surveys, such as Roman, with a 
+focus on accurate modeling of emission lines and calibrating models using the Semi-Analytic Model Galacticus. 
+My other research interests are modeling dwarf satellites of the Milky Way and Centaurus A, and exploring the
+impact of major mergers on stellar streams and their properties.
+  </p>
+
+  <h2>Research & Projects</h2>
+
+  <h3>Modeling Emission Lines</h3>
+  <p>
+    Using the <strong>GALACTICUS</strong> semi-analytic model,
+    I have implemented an improved model for emission line luminosities
+    in HII regions, incorporating the Cloudy models, building upon the model
+    by Merson et al. 2018 for star-forming galaxies. I have implemented an
+emission line model for the AGN in model galaxies, drawing inspiration from
+the work of Feltre et al. 2016 \cite{Feltre+2016}. This model employs \texttt{CLOUDY}
+Ferland+2013, Ferland+2017, to create detailed photoionization models of the narrow-line regions in AGN.
+  </p>
+  <img src="images/project1.jpg" alt="Predicted star-formation histories of dwarf galaxies" class="figure">
+
+  <h3>Dwarf Galaxies of the Local Volume<br>
+      (Weerasooriya et&nbsp;al. 2023,2024)</h3>
+  <p>
+    My Ph.D. thesis began exploration of the dependence of the SF physics of dwarf galaxies on the environment
+by modeling dwarf galaxies of the MW and an intermediate mass-environment (Cen A) using \texttt{Galacticus}.
+SAMs formulate galaxy physics onto a dark matter-only N-body simulation, are computationally inexpensive, and
+allow us to explore this massive system's parameter space rapidly.
+  </p>
+  <img src="images/project2.jpg" alt="Luminosity metallicity relation of Milky Way dwarf galaxies" class="figure">
+
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:sweerasooriya@carnegiescience.edu">sweerasooriyaw@carnegiescience.edu</a><br>
+    GitHub: <a href="https://github.com/sachiwee">github.com/sachiwee</a>
+  </p>
+
+</body>
+</html>
