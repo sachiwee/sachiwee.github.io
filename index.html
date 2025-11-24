@@ -39,13 +39,28 @@
 
     <h3>Modeling Emission Lines</h3>
     <p>
-      Using the <strong>GALACTICUS</strong> semi-analytic model,
-      I have implemented an improved model for emission line luminosities
-      in HII regions, incorporating the Cloudy models, building upon the model
-      by Merson et al. 2018 for star-forming galaxies. I have implemented an
-      emission line model for the AGN in model galaxies, drawing inspiration from
-      the work of Feltre et al. 2016. This model employs <code>CLOUDY</code>
-      (Ferland+2013, Ferland+2017), to create detailed photoionization models of the narrow-line regions in AGN.
+      Currently, I am developing the emission line (EL) modeling} in <code>GALACTICUS</code>.
+      Emission from young hot stars and AGN can ionize surrounding gas, creating `HII regions'
+      and `narrow line regions'. These ELs probe the SFH, gas metallicity, gas density, and 
+      AGN activity. Star-forming galaxies at high redshift occupy a locus shifted to 
+      higher $[\mathrm{OIII}]/\mathrm{H}\beta$ ratios than SDSS galaxies at $z\sim0$, a trend 
+      established across samples from hundreds (Shapley+2015,Strom+2017) to 
+      thousands of systems (Kashino+2019). With current JWST surveys and upcoming missions 
+      such as Roman and LSST set to deliver millions of emission-line galaxies, it is both 
+      critical and timely to refine theoretical models of ELs for interpreting these datasets 
+      and testing our understanding of galaxy evolution. I have implemented an improved model 
+      for emission line luminosities in HII regions using <code>CLOUDY</code> (Ferland+2017)
+      for star-forming galaxies. The luminosities of HII regions are characterized by parameters
+      including hydrogen density, interstellar metallicity, ionizing photon rates, and elemental
+      and dust abundances (Gutkin+2016). Notably, this model approximately reproduces the
+      observed $H_{\alpha},\mathrm{[NII],[OII]}$ LFs (Favole+2024), and agree with galaxy 
+      EL ratios at $z\sim2$ (Strom+2017,Raptis+2025). I have further developed a AGN EL model to
+      predict narrow-line region emission. What's unique about this model is the ability to connect
+      emission line ratios and other properties of galaxies to better understand their behavior. 
+      Our models reproduce the observed black hole (BH) accretion rates (Vazquez+2025).
+      I am facilitating further comparison of models to observations of SFR distributions, 
+      BH mass velocity dispersion relations (Robotham+2011,McConnel&Ma2013). My models will support
+      surveys uncovering millions of EL galaxies.
     </p>
     
 
@@ -64,6 +79,15 @@
       <img src="images/project2.jpg" alt="Predicted star-formation histories of Milky Way dwarf galaxies (solid curves) and observed SFHs (dashed curves)." class="figure" />
       <figcaption>Predicted star-formation histories of Milky Way dwarf galaxies (solid curves) and observed SFHs (dashed curves).</figcaption>
     </figure>
+
+    <h3>Stellar Streams <span>(Weerasooriya et al. 2024)</span></h3>
+    <p>
+      Stellar streams are the remnants of disrupted globular clusters or dwarf galaxies—are recognized as tracers
+      of galactic structure and evolution. These streams offer valuable insights into the gravitational potential 
+      and assembly history of galaxies. We explore how a population of stellar streams evolves in response to a 
+      major perturbation, such as a galaxy merger. See here for more details.
+      <a href="https://dancingstreamsinmerginghalos.github.io">github.com/sachiwee</a>
+    </p>
   </section>
 
   <section id="contact">
